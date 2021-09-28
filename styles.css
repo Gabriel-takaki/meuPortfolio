@@ -74,10 +74,9 @@ a{
 .euImg{
   box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
   border-radius: 600px 250px  / 300px 25em 300px 40em;
-  ;
   background-color: #2da9b9;
   max-width: 85%;
-  height: 100%;
+  height: auto;
   display: block;
 }
 .euSobre{

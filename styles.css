@@ -170,8 +170,10 @@ img{
 
   .home__img{
     position: absolute;
-    width: 290px;
+    width: 250px;
     margin-bottom: 3rem;
+    height: 260px;
+    margin-right: -50px;
   }
 
 }
@@ -253,7 +255,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 290px;
+  width: 390px;
 }
 
 /*BUTTONS*/
@@ -400,7 +402,7 @@ img{
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 768px){
+@media (min-width: 768px){
   body{
     margin: 0;
   }
@@ -450,10 +452,10 @@ img{
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  .home__img{
-    width: 457px;
+  /* .home__img{
+    width: 47px;
     bottom: 15%;
-  }
+  } */
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);

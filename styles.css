@@ -165,13 +165,13 @@ img{
   }
   .home__data{
     text-align: center;
-    margin-bottom: 20rem;
+    margin-bottom: 30rem;
   }
 
   .home__img{
     position: absolute;
     width: 250px;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     height: 260px;
     margin-right: -50px;
   }

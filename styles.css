@@ -77,7 +77,7 @@ a{
   ;
   background-color: #2da9b9;
   max-width: 85%;
-  height: 100%;
+  max-height: 70%;
   display: block;
 }
 .euSobre{
@@ -148,6 +148,23 @@ img{
   font-weight: var(--font-semi);
 }
 @media screen and (max-width: 768px){
+
+  .euImg{
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    border-radius: 600px 250px  / 300px 25em 300px 40em;
+    ;
+    background-color: #2da9b9;
+    max-width: 100%;
+    max-height: 50%;
+    display: block;
+    margin-left: -50px;
+   
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
   .nav__menu{
     position: fixed;
     top: var(--header-height);
